@@ -1,0 +1,180 @@
+body {
+    font-family: basis_grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #404040;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.account-main-container {
+    height: auto;
+    display: block;
+    background-color: #fffdfd;
+}
+
+.account-main-top {
+    height: auto;
+}
+
+.account-main-top img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    max-width: 1800px;
+}
+
+.avatar-container {
+    display: grid;
+    position: relative;
+    margin: 1cm;
+    justify-content: center;
+}
+
+.avatar {
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    flex: auto;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.avatar i {
+    display: flex;
+    position: absolute;
+    right: 12px;
+    font-size: 1.1rem;
+}
+
+.username {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.username h1 {
+    color: rgb(136, 137, 134);
+}
+
+.user-info {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.user-info a {
+    display: flex;
+    margin-top: 1cm;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    text-decoration: none;
+    color: black;
+}
+
+.user-connection {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 1cm;
+}
+
+.account-main-bottom {
+    display: block;
+    margin: 1cm;
+    min-height: 300px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    margin-top: 2cm;
+}
+
+.post {
+    padding-bottom: 20px;
+    border-width: 1px;
+    /* margin-left: initial; */
+}
+
+.post_content {
+    padding: 20px 20px 50px;
+    margin-bottom: 2cm;
+    transition: .75s ease-in-out border-color;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #cfcaca;
+    word-wrap: break-word;
+    overflow: hidden;
+    min-height: 60px;
+}
+
+.top-post-content {
+    display: block;
+    height: auto;
+    position: relative;
+}
+
+.post_author {
+    display: inline-block;
+    margin: 0 0 15px;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
+
+.post_container {
+    margin-top: 1cm;
+    background-color: #ffffff;
+    list-style: none;
+}
+
+.post_author a {
+    color: #0627e0;
+    list-style: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.post p {
+    font-size: 0.9rem;
+    margin: 0 0 10px;
+}
+
+.bottom-post-content {
+    margin-top: 1cm;
+}
+
+.bookmarked {
+    font-size: 16px;
+    color: #2390b0;
+    opacity: 0;
+    transition: .75s ease-in-out opacity;
+    margin-left: 5px;
+}
+
+.pull-right {
+    display: inline-block;
+    float: right;
+    height: auto;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.time {
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: auto;
+    position: relative;
+}
